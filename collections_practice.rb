@@ -14,3 +14,4 @@ end
 
 def swap_elements(array)
   array.each_with_index {|name, index| index[3] <=> index[2]}
+end
