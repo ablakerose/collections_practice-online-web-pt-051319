@@ -32,3 +32,7 @@ def find_a(string_array)
     string.start_with?("a")
   end
 end
+
+def sum_array(numbers_array)
+  numbers_array.inject
+end 
