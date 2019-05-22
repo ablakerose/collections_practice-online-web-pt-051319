@@ -35,4 +35,4 @@ end
 
 def sum_array(numbers_array)
   numbers_array.inject
-end 
+end
