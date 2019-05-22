@@ -25,6 +25,6 @@ def kesha_maker(names_array)
   k$shified = []
   k$shified << names_array.each{|name| name[2] = "$" }
 end
-  new_array
+  k$shified
 
 end
