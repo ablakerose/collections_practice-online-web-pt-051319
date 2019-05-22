@@ -9,9 +9,9 @@ end
 
 def sort_array_char_count(numbers_array)
   #numbers_array.length.sort
-  numbers_array.sort {|x, y| x.length <=> y.length}
+  numbers_array.sort {|a, b| a.length <=> b.length}
 end
 
 def swap_elements(array)
-  array.each_with_index {|name, index| index[3] <=> index[2]}
+  array[1], array[2] = array[2], array[1]
 end
