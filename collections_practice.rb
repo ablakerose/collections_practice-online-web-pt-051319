@@ -22,9 +22,8 @@ def reverse_array(numbers_array)
 end
 
 def kesha_maker(names_array)
-  new_array = []
-  names_array.each {|name| [3] }
-  new_array << name
+  k$shified = []
+  k$shified << names_array.each{|name| name[2] = "$" }
 end
   new_array
 
