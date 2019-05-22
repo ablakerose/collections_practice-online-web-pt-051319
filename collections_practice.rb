@@ -24,6 +24,5 @@ end
 def kesha_maker(names_array)
   k$shified = []
   k$shified << names_array.each{|name| name[2] = "$"}
-end
   k$shified
 end
