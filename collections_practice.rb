@@ -19,4 +19,4 @@ end
 
 def reverse_array(numbers_array)
   numbers_array.reverse
-end 
+end
