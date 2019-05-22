@@ -21,9 +21,9 @@ def reverse_array(numbers_array)
   numbers_array.reverse
 end
 
-def kesha_maker(array)
+def kesha_maker(names_array)
   new_array = []
-  array.each {|name| [3] }
+  names_array.each {|name| [3] }
   new_array << name
 end
   new_array
