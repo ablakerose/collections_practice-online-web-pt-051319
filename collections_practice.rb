@@ -8,5 +8,6 @@ def sort_array_desc(numbers_array)
 end
 
 def sort_array_char_count(numbers_array)
-  numbers_array.length.sort
+  #numbers_array.length.sort
+  numbers_array.sort {|x,y| x.length <=> y.length}
 end
