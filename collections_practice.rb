@@ -11,3 +11,6 @@ def sort_array_char_count(numbers_array)
   #numbers_array.length.sort
   numbers_array.sort {|x, y| x.length <=> y.length}
 end
+
+def swap_elements(array)
+  array.each_with_index {|name, index| index[3] <=> index[2]}
