@@ -24,5 +24,5 @@ end
 def kesha_maker(names_array)
   keshified = []
   keshified << names_array.each{|name| name[2] = "$"}
-  keshified
+  keshified.flatten
 end
