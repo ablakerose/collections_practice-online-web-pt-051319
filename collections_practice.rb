@@ -25,5 +25,7 @@ def kesha_maker(array)
   new_array = []
   array.each {|name| [3] }
   new_array << name
+end 
+  new_array
 
 end
