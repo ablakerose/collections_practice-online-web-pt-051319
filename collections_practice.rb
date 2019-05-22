@@ -26,3 +26,9 @@ def kesha_maker(names_array)
   keshified << names_array.each{|name| name[2] = "$"}
   keshified.flatten
 end
+
+def find_a(string_array)
+  string_array.select do |string|
+    name.start_with?(a)
+  end 
+end
